@@ -6,7 +6,6 @@ public class DemoPractice {
 		
 		System.out.println("new file is added");
 		System.out.println("file modified");
-		
 	}
 
 }
