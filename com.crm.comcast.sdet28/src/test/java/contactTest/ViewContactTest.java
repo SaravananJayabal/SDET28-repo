@@ -54,29 +54,3 @@ public void ViewContact() throws Throwable   {
         }
 		}
 }
-/*@Test (groups= {"regressionTest"})
-public void EditContact() throws Throwable{
-	//getting data from excelsheet
-	String editedName = eUtil.getStringCellData("Sheet1", 6, 2);
-	String expectedResult = eUtil.getStringCellData("Sheet1", 6, 3);
-	
-	//edit the contact
-	Homepage homepage = new Homepage(driver);
-	homepage.clickContact();
-	
-	ContactPage contactpage = new ContactPage(driver);
-	contactpage.clickEdit();
-	
-	ContactInformationPage contactinfo = new ContactInformationPage(driver);
-	contactinfo.EditLastName(editedName);
-
-	//verification for edit contact
-    String actualResult = driver.findElement(By.linkText("tenSanthoshSanthoshSanthoshSanthoshSanth...")).getText();
-    if(actualResult.contains(expectedResult)) {
-    	System.out.println("contact is edited");
-    }
-    else {
-    	System.out.println("contact is not edited");
-    }
-}
-}*/

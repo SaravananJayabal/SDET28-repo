@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="contactTest.EditContactTest">
+      <class name="contactTest.ViewContactTest">
         <methods>
           <include name="configBs"/>
           <include name="configBc"/>
-          <include name="EditContact"/>
+          <include name="ViewContact"/>
           <include name="configAs"/>
           <include name="configAc"/>
           <include name="configBm"/>
           <include name="configAm"/>
         </methods>
-      </class> <!-- contactTest.EditContactTest -->
+      </class> <!-- contactTest.ViewContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

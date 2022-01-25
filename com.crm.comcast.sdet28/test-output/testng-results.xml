@@ -2,29 +2,29 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-20T15:11:12 IST" name="Default suite" finished-at="2022-01-20T15:11:12 IST" duration-ms="49">
+  <suite started-at="2022-01-25T09:44:41 IST" name="Default suite" finished-at="2022-01-25T09:44:41 IST" duration-ms="40">
     <groups>
       <group name="regressionTest">
-        <method signature="EditContactTest.EditContact()[pri:0, instance:contactTest.EditContactTest@3bf9ce3e]" name="EditContact" class="contactTest.EditContactTest"/>
+        <method signature="ViewContactTest.ViewContact()[pri:0, instance:contactTest.ViewContactTest@3bf9ce3e]" name="ViewContact" class="contactTest.ViewContactTest"/>
       </group> <!-- regressionTest -->
     </groups>
-    <test started-at="2022-01-20T15:11:12 IST" name="Default test" finished-at="2022-01-20T15:11:12 IST" duration-ms="49">
-      <class name="contactTest.EditContactTest">
-        <test-method is-config="true" signature="configBs()[pri:0, instance:contactTest.EditContactTest@3bf9ce3e]" started-at="2022-01-20T15:11:12 IST" name="configBs" finished-at="2022-01-20T15:11:12 IST" duration-ms="7" status="PASS">
+    <test started-at="2022-01-25T09:44:41 IST" name="Default test" finished-at="2022-01-25T09:44:41 IST" duration-ms="40">
+      <class name="contactTest.ViewContactTest">
+        <test-method is-config="true" signature="configBs()[pri:0, instance:contactTest.ViewContactTest@3bf9ce3e]" started-at="2022-01-25T09:44:41 IST" name="configBs" finished-at="2022-01-25T09:44:41 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBs -->
-        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:contactTest.EditContactTest@3bf9ce3e]" started-at="2022-01-20T15:11:12 IST" name="configBc" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1642671672919" status="FAIL">
+        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:contactTest.ViewContactTest@3bf9ce3e]" started-at="2022-01-25T09:44:41 IST" name="configBc" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1643084081552" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeClass on method configBc but has not been marked @Optional or defined
-in C:\Users\sarav\AppData\Local\Temp\testng-eclipse--424549045\testng-customsuite.xml]]>
+in C:\Users\sarav\AppData\Local\Temp\testng-eclipse--772625790\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeClass on method configBc but has not been marked @Optional or defined
-in C:\Users\sarav\AppData\Local\Temp\testng-eclipse--424549045\testng-customsuite.xml
+in C:\Users\sarav\AppData\Local\Temp\testng-eclipse--772625790\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -54,21 +54,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:contactTest.EditContactTest@3bf9ce3e]" started-at="2022-01-20T15:11:12 IST" name="configBm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1642671672940" status="SKIP">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:contactTest.ViewContactTest@3bf9ce3e]" started-at="2022-01-25T09:44:41 IST" name="configBm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1643084081568" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="EditContact()[pri:0, instance:contactTest.EditContactTest@3bf9ce3e]" started-at="2022-01-20T15:11:12 IST" name="EditContact" finished-at="2022-01-20T15:11:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="ViewContact()[pri:0, instance:contactTest.ViewContactTest@3bf9ce3e]" started-at="2022-01-25T09:44:41 IST" name="ViewContact" finished-at="2022-01-25T09:44:41 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeClass on method configBc but has not been marked @Optional or defined
-in C:\Users\sarav\AppData\Local\Temp\testng-eclipse--424549045\testng-customsuite.xml]]>
+in C:\Users\sarav\AppData\Local\Temp\testng-eclipse--772625790\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeClass on method configBc but has not been marked @Optional or defined
-in C:\Users\sarav\AppData\Local\Temp\testng-eclipse--424549045\testng-customsuite.xml
+in C:\Users\sarav\AppData\Local\Temp\testng-eclipse--772625790\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -97,20 +97,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EditContact -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:contactTest.EditContactTest@3bf9ce3e]" started-at="2022-01-20T15:11:12 IST" name="configAm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1642671672948" status="SKIP">
+        </test-method> <!-- ViewContact -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:contactTest.ViewContactTest@3bf9ce3e]" started-at="2022-01-25T09:44:41 IST" name="configAm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1643084081574" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAc()[pri:0, instance:contactTest.EditContactTest@3bf9ce3e]" started-at="2022-01-20T15:11:12 IST" name="configAc" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1642671672950" status="SKIP">
+        <test-method is-config="true" signature="configAc()[pri:0, instance:contactTest.ViewContactTest@3bf9ce3e]" started-at="2022-01-25T09:44:41 IST" name="configAc" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1643084081575" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAc -->
-        <test-method is-config="true" signature="configAs()[pri:0, instance:contactTest.EditContactTest@3bf9ce3e]" started-at="2022-01-20T15:11:13 IST" name="configAs" finished-at="2022-01-20T15:11:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAs()[pri:0, instance:contactTest.ViewContactTest@3bf9ce3e]" started-at="2022-01-25T09:44:41 IST" name="configAs" finished-at="2022-01-25T09:44:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAs -->
-      </class> <!-- contactTest.EditContactTest -->
+      </class> <!-- contactTest.ViewContactTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
