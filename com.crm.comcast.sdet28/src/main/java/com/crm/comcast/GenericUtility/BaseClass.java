@@ -32,17 +32,17 @@ public class BaseClass {
 	//connection to the DB
 	System.out.println("==== connection to database===");
 	}
-@Parameters("browser")
+//@Parameters("browser")
 @BeforeClass (groups= {"smokeTest","regressionTest"})
 	//lanuch the browser
-	public void configBc(String browser) throws Throwable {
-	//String browserName = fUtil.getPropertyFileData("browser");
+	public void configBc() throws Throwable {
+	String browserName = fUtil.getPropertyFileData("browser");
 	String url = fUtil.getPropertyFileData("url");
-	if(browser.equals("chrome")) {
+	if(browserName.equals("chrome")) {
 		System.setProperty(IPathConstants.CHROME_KEY,IPathConstants.CHROME_PATH);
 		driver=new ChromeDriver();
 		}
-	else if (browser.equals("firefox")) {
+	else if (browserName.equals("firefox")) {
 		System.setProperty(IPathConstants.FIREFOX_KEY,IPathConstants.FIREFOX_PATH);
 		driver=new FirefoxDriver();
 		} 
