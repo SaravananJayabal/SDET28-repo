@@ -1,44 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-25T10:20:07 IST" name="Default suite" finished-at="2022-01-25T10:20:20 IST" duration-ms="12995">
+  <suite started-at="2022-01-25T17:58:04 IST" name="Default suite" finished-at="2022-01-25T17:58:04 IST" duration-ms="57">
     <groups>
-      <group name="regressionTest">
-        <method signature="ViewContactTest.ViewContact()[pri:0, instance:contactTest.ViewContactTest@4efc180e]" name="ViewContact" class="contactTest.ViewContactTest"/>
-      </group> <!-- regressionTest -->
     </groups>
-    <test started-at="2022-01-25T10:20:07 IST" name="Default test" finished-at="2022-01-25T10:20:20 IST" duration-ms="12995">
-      <class name="contactTest.ViewContactTest">
-        <test-method is-config="true" signature="configBs()[pri:0, instance:contactTest.ViewContactTest@4efc180e]" started-at="2022-01-25T10:20:07 IST" name="configBs" finished-at="2022-01-25T10:20:07 IST" duration-ms="5" status="PASS">
+    <test started-at="2022-01-25T17:58:04 IST" name="Default test" finished-at="2022-01-25T17:58:04 IST" duration-ms="57">
+      <class name="practice.DemoForTakeScreenShot">
+        <test-method is-config="true" signature="configBs()[pri:0, instance:practice.DemoForTakeScreenShot@156b88f5]" started-at="2022-01-25T17:58:04 IST" name="configBs" finished-at="2022-01-25T17:58:04 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBs -->
-        <test-method is-config="true" signature="configBc()[pri:0, instance:contactTest.ViewContactTest@4efc180e]" started-at="2022-01-25T10:20:07 IST" name="configBc" finished-at="2022-01-25T10:20:11 IST" duration-ms="3749" status="PASS">
+        <test-method is-config="true" signature="configBc()[pri:0, instance:practice.DemoForTakeScreenShot@156b88f5]" started-at="2022-01-25T17:58:04 IST" name="configBc" finished-at="2022-01-25T17:58:04 IST" duration-ms="1" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[.\src\test\resources\data02.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\data02.properties (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at com.crm.comcast.GenericUtility.FileUtility.getPropertyFileData(FileUtility.java:21)
+at com.crm.comcast.GenericUtility.BaseClass.configBc(BaseClass.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:contactTest.ViewContactTest@4efc180e]" started-at="2022-01-25T10:20:11 IST" name="configBm" finished-at="2022-01-25T10:20:14 IST" duration-ms="2895" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:practice.DemoForTakeScreenShot@156b88f5]" started-at="2022-01-25T17:58:04 IST" name="configBm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1643113684784" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="ViewContact()[pri:0, instance:contactTest.ViewContactTest@4efc180e]" started-at="2022-01-25T10:20:14 IST" name="ViewContact" finished-at="2022-01-25T10:20:18 IST" duration-ms="4503" status="PASS">
+        <test-method signature="Sample()[pri:0, instance:practice.DemoForTakeScreenShot@156b88f5]" started-at="2022-01-25T17:58:04 IST" name="Sample" finished-at="2022-01-25T17:58:04 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[.\src\test\resources\data02.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\data02.properties (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at com.crm.comcast.GenericUtility.FileUtility.getPropertyFileData(FileUtility.java:21)
+at com.crm.comcast.GenericUtility.BaseClass.configBc(BaseClass.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ViewContact -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:contactTest.ViewContactTest@4efc180e]" started-at="2022-01-25T10:20:18 IST" name="configAm" finished-at="2022-01-25T10:20:20 IST" duration-ms="1644" status="PASS">
+        </test-method> <!-- Sample -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:practice.DemoForTakeScreenShot@156b88f5]" started-at="2022-01-25T17:58:04 IST" name="configAm" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1643113684791" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAc()[pri:0, instance:contactTest.ViewContactTest@4efc180e]" started-at="2022-01-25T10:20:20 IST" name="configAc" finished-at="2022-01-25T10:20:20 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="configAc()[pri:0, instance:practice.DemoForTakeScreenShot@156b88f5]" started-at="2022-01-25T17:58:04 IST" name="configAc" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1643113684793" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAc -->
-        <test-method is-config="true" signature="configAs()[pri:0, instance:contactTest.ViewContactTest@4efc180e]" started-at="2022-01-25T10:20:20 IST" name="configAs" finished-at="2022-01-25T10:20:20 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAs()[pri:0, instance:practice.DemoForTakeScreenShot@156b88f5]" started-at="2022-01-25T17:58:04 IST" name="configAs" finished-at="2022-01-25T17:58:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAs -->
-      </class> <!-- contactTest.ViewContactTest -->
+      </class> <!-- practice.DemoForTakeScreenShot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

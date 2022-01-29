@@ -23,11 +23,10 @@ public void onTestFailure(ITestResult result) {
 	File destination = new File("./errorshot/"+testCaseName+".png");
 	try {
 		FileUtils.copyFile(source, destination);
-		//source.renameTo(destination);
+	//source.renameTo(destination);
 	} catch (IOException e) {
 		e.printStackTrace();
 	}
 	
 }
-
 }
