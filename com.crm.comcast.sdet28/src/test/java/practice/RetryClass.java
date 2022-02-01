@@ -1,4 +1,4 @@
-package practice;
+/*package practice;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,4 +10,4 @@ public class RetryClass extends RetryImplementationClass {
 	public void retry() {
 		Assert.assertEquals(false, true);
 	}
-}
+}*/
