@@ -25,7 +25,7 @@ import com.crm.comcast.objectRepository.LoginPage;
  * @author sarav
  *
  */
-public class ViewContactTest {
+public class ViewContact1Test {
 
 	public static void main(String[] args) throws Throwable {
 		//create object for utilities

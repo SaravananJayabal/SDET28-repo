@@ -25,7 +25,7 @@ import com.crm.comcast.objectRepository.LoginPage;
  * @author sarav
  *
  */
-public class EditContactTest {
+public class EditContact1Test {
 
 	public static void main(String[] args) throws Throwable {
 		//create object for utilities

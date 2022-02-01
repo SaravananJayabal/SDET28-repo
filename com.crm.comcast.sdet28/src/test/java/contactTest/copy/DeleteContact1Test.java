@@ -23,7 +23,7 @@ import com.crm.comcast.objectRepository.LoginPage;
  * @author sarav
  *
  */
-public class DeleteContactTest {
+public class DeleteContact1Test {
 
 	public static void main(String[] args) throws Throwable {
 	//create object for utilities

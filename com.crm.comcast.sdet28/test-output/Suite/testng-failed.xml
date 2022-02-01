@@ -7,24 +7,13 @@
         <methods>
           <include name="configBs"/>
           <include name="configBc"/>
+          <include name="EditContact"/>
           <include name="configAs"/>
           <include name="configAc"/>
           <include name="configBm"/>
-          <include name="ViewContact"/>
           <include name="configAm"/>
         </methods>
       </class> <!-- contactTest.EditContactTest -->
-      <class name="contactTest.ViewContactTest">
-        <methods>
-          <include name="configBs"/>
-          <include name="configBc"/>
-          <include name="configAs"/>
-          <include name="configAc"/>
-          <include name="EditContact"/>
-          <include name="configBm"/>
-          <include name="configAm"/>
-        </methods>
-      </class> <!-- contactTest.ViewContactTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

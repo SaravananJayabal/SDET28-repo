@@ -1,4 +1,4 @@
-package practice;
+/*package practice;
 
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -15,4 +15,4 @@ public class DemoForTakeScreenShot extends BaseClass {
 	Assert.assertEquals(expectedName,actualName); 
 	}
 
-}
+}*/
